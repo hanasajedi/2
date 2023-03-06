@@ -1,17 +1,31 @@
-*{
+body {
     text-align: center;
     background-color: rgb(241, 226, 231);
 }
 
+table {
+    margin: 50px auto;
+    width: 820px;
+    text-align: left;
+}
 
-th,tr,td {
-    text-align: center;
+th,
+td {
+    /* text-align: center; */
     background-color: rgb(246, 137, 155);
     border: 3px solid rgb(25, 20, 21);
     margin: 10px;
     padding: 10px;
-    
 }
-h1{
+
+td {
+    width: 80%;
+}
+
+th {
+    width: 20%;
+}
+
+h1 {
     color: blue;
 }
