@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+progress {
+    background-color: #eee;
+    height: 40px;
+    width: 300px;
+}
+
+progress::-webkit-progress-value {
+    background-color: purple;
+
+}
+
+progress::-webkit-progress-bar {
+    background-color: #f8d4d4;
+}
+
+progress::-moz-progress-bar {
+    background-color: purple;
+}
